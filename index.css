@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 550px;
+    height: 719px;
+    font-family: 'Inter', sans-serif;
+    background: #1F2937;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    background: #3A69D2;
+    color: white;
+    text-align: center;
+}
+h1{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800px;
+}
+#thanks{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.buttons{
+    display: flex;
+    width: 550px;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    color: #4A4E74;
+    background: #D1D4F4;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.spread-out{
+    display: flex;
+    font-size: 12px;
+    width: 550px;
+    flex-direction: row;
+    color: #D5D4D8;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 600px;
+}
+.spread-list{
+    display: flex;
+    width: 550px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700px;
+    font-size: 20px;
+    color: #F5F5F5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin: 5px 20px;
+}
+.bar{
+    width: 400;
+    margin: 5px 20px;
+    margin-top: 30px;
+    border: 1px solid #C3C6DB
+}
+#send-button{
+    width: 427px;
+    background-color: #3A69D2;
+    color: #F5F5F5;
+}
+footer{
+    text-align: center;
+}
+#price-tag{
+    color: white;
+    font-size: 36px;
+    font-weight: 400px;
+}
+#list{
+    padding-left: 0;
+}
+li{
+    list-style: none;
+}
+

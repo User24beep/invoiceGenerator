@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Inboice Generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Invoice Generator</h1>
+            <p id="thanks">Thanks for choosing this service!</p>
+        </header>
+        <main>
+            <div class="buttons">
+                <button id="wash-btn">Wash Car: $10</button>
+                <button id="mow-btn">Mow Lawn: $20</button>
+                <button id="pull-btn">Pull Weeds: $30</button>
+            </div>
+            <div>
+                <div class="spread-out">
+                    <p>TASK</p>
+                    <p>TOTAL</p>
+                </div>
+                <ul id="list">
+                    <!--Elements-->
+                    
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div class="bar"></div>
+            <div class="spread-out">
+                    <p>NOTES</p>
+                    <p>TOTAL AMOUNT</p>
+            </div>
+            <div class="spread-out">
+                    <p>We accept cash, credit card or PayPal</p>
+                    <p id="price-tag">0$</p>
+            </div>
+            <button id="send-button">Send invoice</button>
+        </footer>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
